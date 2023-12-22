@@ -37,6 +37,7 @@ body {
     font-family: 'Pretendard Variable';
     font-weight: normal;
     color: #333;
+    min-width: 1850px
 }
 
 .header {
@@ -369,7 +370,7 @@ body {
 }
 .section03 .slide_set .slide01 .txt_set::after {
     content: '';
-    background: url(/img/problem_slide01_total@2x.png);
+    background: url(../img/problem_slide01_total@2x.png);
     width: 364px;
     height: 150px;
     position: absolute;
@@ -379,7 +380,7 @@ body {
 }
 .section03 .slide_set .slide01::before {
     content: '';
-    background: url(/img/problem_slide01@1.5x.jpg);
+    background: url(../img/problem_slide01@1.5x.jpg);
     position: absolute;
     width: 573px;
     height: 414px;
@@ -404,7 +405,7 @@ body {
 
 .section03 .slide_set .slide02 .txt_set::after {
     content: '';
-    background: url(/img/problem_slide02_total@2x.png);
+    background: url(../img/problem_slide02_total@2x.png);
     width: 364px;
     height: 150px;
     position: absolute;
@@ -414,7 +415,7 @@ body {
 }
 .section03 .slide_set .slide02::before {
     content: '';
-    background: url(/img/problem_slide02@1.5x.jpg);
+    background: url(../img/problem_slide02@1.5x.jpg);
     position: absolute;
     width: 573px;
     height: 414px;
@@ -439,7 +440,7 @@ body {
 }
 .section03 .slide_set .slide03 .txt_set::after {
     content: '';
-    background: url(/img/problem_slide03_total@2x.png);
+    background: url(../img/problem_slide03_total@2x.png);
     width: 364px;
     height: 150px;
     position: absolute;
@@ -449,7 +450,7 @@ body {
 }
 .section03 .slide_set .slide03::before {
     content: '';
-    background: url(/img/problem_slide03@1.5x.jpg);
+    background: url(../img/problem_slide03@1.5x.jpg);
     position: absolute;
     width: 573px;
     height: 414px;
@@ -477,28 +478,28 @@ body {
 }
 
 .section03 .slick-prev {
-    background: url(/img/icons8-긴-화살표-왼쪽-100.png) center / 100% no-repeat;
+    background: url(../img/icons8-긴-화살표-왼쪽-100.png) center / 100% no-repeat;
     width: 84px;
     height: 64px;
     position: absolute;
     left: -150px;
 }
 .section03 .slick-prev:hover {
-    background: url(/img/icons8-긴-화살표-왼쪽-100.png) center / 100% no-repeat;
+    background: url(../img/icons8-긴-화살표-왼쪽-100.png) center / 100% no-repeat;
 
 }
 .section03 .slick-prev::before {
     display: none;
 }
 .section03 .slick-next {
-    background: url(/img/icons8-긴-화살표-오른쪽-100.png) center / 100% no-repeat;
+    background: url(../img/icons8-긴-화살표-오른쪽-100.png) center / 100% no-repeat;
     width: 84px;
     height: 64px;
     position: absolute;
     right: -150px;
 }
 .section03 .slick-next:hover {
-    background: url(/img/icons8-긴-화살표-오른쪽-100.png) center / 100% no-repeat;
+    background: url(../img/icons8-긴-화살표-오른쪽-100.png) center / 100% no-repeat;
 
 }
 .section03 .slick-next::before {
@@ -512,7 +513,7 @@ body {
     height: 1870px;
 }
 .section04 .inner {
-    background: url(/img/ring_bg_line@1.5x.png);
+    background: url(../img/ring_bg_line@1.5x.png);
     width: 1920px;
     height: 100%;
     padding: 110px 0;
@@ -721,7 +722,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/img/ring_pakge@2x.png);
+    background: url(../img/ring_pakge@2x.png);
     background-size: 658px 340px;
     background-repeat: no-repeat;
 }
@@ -886,7 +887,7 @@ body {
     position: relative;
     width: 100%;
     height: 840px;
-    background: url(/img/sec_cta_bg@1.5x.jpg);
+    background: url(../img/sec_cta_bg@1.5x.jpg);
     background-size: auto 840px;
     background-repeat: no-repeat;
 }
@@ -931,7 +932,7 @@ body {
     left: 27px;
     width: 166px;
     height: 14px;
-    background: url(/img/icon_오른쪽반화살표_blue.png) no-repeat left center;
+    background: url(../img/icon_오른쪽반화살표_blue.png) no-repeat left center;
     background-size: contain;
 }
 .section08 .inner .btn::after {
@@ -942,7 +943,7 @@ body {
     z-index: 2;
     width: 300px;
     height: 342px;
-    background: url(/img/cta_ring_2.png) no-repeat center center;
+    background: url(../img/cta_ring_2.png) no-repeat center center;
     background-size: contain;
 }
 
@@ -968,4 +969,84 @@ body {
     line-height: 70px;
     text-align: center;
     background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section09 .inner .listtit ul li:nth-of-type(1) {
+    background-color: #1CABFF;
+    color: white;
+}
+.section09 .inner .listtxt ul li {
+    position: relative;
+    width: 900px;
+    height: 80px;
+    background-color: white;
+    border-bottom: solid 1px #ECECE7;
+    padding-left: 42px;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.section09 .inner .listtxt ul li::before {
+    content: 'Q.';
+    color: #1CABFF;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 130%;
+}
+.section09 .inner .listtxt ul li::after {
+    content: '';
+    background: url(../img/blue삼각화살표.svg);
+    margin-left: auto;
+    display: block;
+    width: 8px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+
+}
+
+/* 🤍footer--------------------🤍 */
+
+.footer {
+    width: 100%;
+    height: 409px;
+    background-color: #131313;
+}
+.footer .footer_info {
+    width: 100%;
+    height: 100%;
+    padding: 120px 0;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.footer .footer_info figure {
+    width: 289px;
+    height: 38px;
+    margin: 0 auto 43px;
+}
+.footer .footer_info figure img {
+    width: 100%;
+    height: 100%;
+}
+.footer .info {
+    color: white;
+}
+
+.footer .info ul li {
+    color: #A1A1A1;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 150%;
+}
+.footer .info p {
+    margin-top: 30px;
+    color: #555;
+    font-size: 16px;
+    line-height: 130%;
 }
